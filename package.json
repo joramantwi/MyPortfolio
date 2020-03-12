@@ -1,0 +1,20 @@
+{
+  "name": "joramportfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "Sass",
+    "node"
+  ],
+  "author": "Joram Antwi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
