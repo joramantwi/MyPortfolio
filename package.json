@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio Website",
   "main": "index.js",
+  "homepage": "https://joramantwi.github.io/MyPortfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "HTML5",
@@ -15,6 +17,7 @@
   "author": "Joram Antwi",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
